@@ -1,0 +1,5 @@
+{"query":{"agg":0,"conds":[[5,0,"butler cc (ks)"]],"sel":3}}
+{"query":{"agg":3,"conds":[[1,0,"3"]],"sel":5}}
+{"query":{"agg":0,"conds":[[1,0,"21"]],"sel":5}}
+{"query":{"agg":0,"conds":[[1,0,"42"]],"sel":0}}
+{"query":{"agg":0,"conds":[[3,0,"Guard"],[4,0,"1996-97"]],"sel":0}}

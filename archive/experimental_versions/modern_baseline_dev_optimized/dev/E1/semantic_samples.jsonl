@@ -1,0 +1,2 @@
+{"example_id": "dev:0:1-10015132-11", "question": "What position does the player who played for butler cc (ks) play?", "prediction_sql": {"agg": 0, "conds": [[5, 0, "Butler CC (KS)"]], "sel": 3}, "gold_sql": {"sel": 3, "conds": [[5, 0, "Butler CC (KS)"]], "agg": 0}, "manual_label": null}
+{"example_id": "dev:1:1-10015132-11", "question": "How many schools did player number 3 play at?", "prediction_sql": {"agg": 3, "conds": [[1, 0, "3"]], "sel": 5}, "gold_sql": {"sel": 5, "conds": [[1, 0, "3"]], "agg": 3}, "manual_label": null}

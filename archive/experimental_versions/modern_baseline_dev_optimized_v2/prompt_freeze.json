@@ -1,0 +1,11 @@
+{
+  "prompt_version": "wikisql-modern-schema-aware-v2-cache-compact",
+  "prompt_hash": "f713e238acfbe11a193ff50fc75fae48e108e38088992837785770b3af5d0081",
+  "created_at": "2026-11-17T12:11:53.469699+00:00",
+  "retrieval": "question lexical cosine + heuristic SQL structure + header overlap",
+  "train_only": true,
+  "example_max_rows": 50,
+  "lossless_target_table": true,
+  "shot_rows_projected_to_sql_columns": true,
+  "prompt_cache": true
+}

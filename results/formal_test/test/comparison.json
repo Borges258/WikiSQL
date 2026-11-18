@@ -1,0 +1,134 @@
+{
+  "split": "test",
+  "experiments": [
+    {
+      "experiment": "E1",
+      "total": 1000,
+      "api_success_count": 1000,
+      "json_validity_count": 1000,
+      "sql_validity_count": 1000,
+      "execution_success_count": 998,
+      "logical_form_correct_count": 809,
+      "execution_correct_count": 877,
+      "api_success_rate": 1.0,
+      "json_validity": 1.0,
+      "sql_validity": 1.0,
+      "execution_success_rate": 0.998,
+      "logical_form_accuracy": 0.809,
+      "execution_accuracy": 0.877,
+      "semantic_accuracy": null,
+      "usage": {
+        "input_tokens": 5225071,
+        "output_tokens": 36914,
+        "total_tokens": 5261985,
+        "cached_input_tokens": 4216704,
+        "cache_write_tokens": 0
+      },
+      "estimated_api_cost_usd": 13.205155999999999,
+      "latency_ms": {
+        "mean": 3910.945,
+        "p50": 2979,
+        "p95": 9062,
+        "max": 21187
+      },
+      "generated_at": "2026-11-17T12:47:05.907817+00:00"
+    },
+    {
+      "experiment": "E2",
+      "total": 1000,
+      "api_success_count": 1000,
+      "json_validity_count": 1000,
+      "sql_validity_count": 1000,
+      "execution_success_count": 999,
+      "logical_form_correct_count": 807,
+      "execution_correct_count": 877,
+      "api_success_rate": 1.0,
+      "json_validity": 1.0,
+      "sql_validity": 1.0,
+      "execution_success_rate": 0.999,
+      "logical_form_accuracy": 0.807,
+      "execution_accuracy": 0.877,
+      "semantic_accuracy": null,
+      "usage": {
+        "input_tokens": 5225071,
+        "output_tokens": 38204,
+        "total_tokens": 5263275,
+        "cached_input_tokens": 4194944,
+        "cache_write_tokens": 0
+      },
+      "estimated_api_cost_usd": 13.274476,
+      "latency_ms": {
+        "mean": 3812.775,
+        "p50": 3118,
+        "p95": 5984,
+        "max": 63461
+      },
+      "generated_at": "2026-11-17T13:09:30.677638+00:00"
+    },
+    {
+      "experiment": "E3",
+      "total": 1000,
+      "api_success_count": 1000,
+      "json_validity_count": 1000,
+      "sql_validity_count": 1000,
+      "execution_success_count": 1000,
+      "logical_form_correct_count": 839,
+      "execution_correct_count": 911,
+      "api_success_rate": 1.0,
+      "json_validity": 1.0,
+      "sql_validity": 1.0,
+      "execution_success_rate": 1.0,
+      "logical_form_accuracy": 0.839,
+      "execution_accuracy": 0.911,
+      "semantic_accuracy": null,
+      "usage": {
+        "input_tokens": 6646591,
+        "output_tokens": 39055,
+        "total_tokens": 6685646,
+        "cached_input_tokens": 4166144,
+        "cache_write_tokens": 0
+      },
+      "estimated_api_cost_usd": 19.035175999999996,
+      "latency_ms": {
+        "mean": 3885.266,
+        "p50": 3106,
+        "p95": 7473,
+        "max": 32053
+      },
+      "generated_at": "2026-11-17T13:32:15.365584+00:00"
+    },
+    {
+      "experiment": "E4",
+      "total": 15878,
+      "api_success_count": 15878,
+      "json_validity_count": 15878,
+      "sql_validity_count": 15878,
+      "execution_success_count": 15868,
+      "logical_form_correct_count": 13596,
+      "execution_correct_count": 14413,
+      "api_success_rate": 1.0,
+      "json_validity": 1.0,
+      "sql_validity": 1.0,
+      "execution_success_rate": 0.999370197757904,
+      "logical_form_accuracy": 0.8562791283536969,
+      "execution_accuracy": 0.9077339715329387,
+      "semantic_accuracy": null,
+      "usage": {
+        "input_tokens": 106282147,
+        "output_tokens": 741780,
+        "total_tokens": 107023927,
+        "cached_input_tokens": 66912384,
+        "cache_write_tokens": 0
+      },
+      "estimated_api_cost_usd": 306.13942,
+      "latency_ms": {
+        "mean": 3547.0905655624133,
+        "p50": 2966,
+        "p95": 5986,
+        "max": 105714
+      },
+      "generated_at": "2026-11-17T19:07:10.338768+00:00"
+    }
+  ],
+  "generated_at": "2026-11-17T19:07:10.362816+00:00"
+}

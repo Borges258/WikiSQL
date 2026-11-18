@@ -1,0 +1,8 @@
+{
+  "prompt_version": "wikisql-modern-schema-aware-v1",
+  "prompt_hash": "294e10ccde97182d64a3fe6b45dd2ac38231d0b2f12e53d48e19a2bdc2223cf1",
+  "created_at": "2026-11-17T11:36:53.952914+00:00",
+  "retrieval": "question lexical cosine + heuristic SQL structure + header overlap",
+  "train_only": true,
+  "example_max_rows": 50
+}

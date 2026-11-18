@@ -1,0 +1,32 @@
+{
+  "experiment": "E4",
+  "total": 15878,
+  "api_success_count": 15878,
+  "json_validity_count": 15878,
+  "sql_validity_count": 15878,
+  "execution_success_count": 15868,
+  "logical_form_correct_count": 13596,
+  "execution_correct_count": 14413,
+  "api_success_rate": 1.0,
+  "json_validity": 1.0,
+  "sql_validity": 1.0,
+  "execution_success_rate": 0.999370197757904,
+  "logical_form_accuracy": 0.8562791283536969,
+  "execution_accuracy": 0.9077339715329387,
+  "semantic_accuracy": null,
+  "usage": {
+    "input_tokens": 106282147,
+    "output_tokens": 741780,
+    "total_tokens": 107023927,
+    "cached_input_tokens": 66912384,
+    "cache_write_tokens": 0
+  },
+  "estimated_api_cost_usd": 306.13942,
+  "latency_ms": {
+    "mean": 3547.0905655624133,
+    "p50": 2966,
+    "p95": 5986,
+    "max": 105714
+  },
+  "generated_at": "2026-11-17T19:07:10.338768+00:00"
+}

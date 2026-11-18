@@ -1,0 +1,30 @@
+{
+  "metric_standard": "Salesforce WikiSQL-compatible unordered logical form comparison and denotation execution comparison",
+  "split": "dev",
+  "total": 5,
+  "completed": 5,
+  "api_success_count": 5,
+  "parse_success_count": 5,
+  "structural_valid_count": 4,
+  "executable_count": 4,
+  "logical_form_correct_count": 4,
+  "execution_correct_count": 4,
+  "api_success_rate": 1,
+  "parse_success_rate": 1,
+  "structural_sql_validity": 0.8,
+  "sql_validity": 0.8,
+  "logical_form_accuracy": 0.8,
+  "execution_accuracy": 0.8,
+  "usage": {
+    "input_tokens": 25267,
+    "output_tokens": 239,
+    "total_tokens": 25506
+  },
+  "latency_ms": {
+    "mean": 11428.2,
+    "p50": 4206,
+    "p95": 40093,
+    "max": 40093
+  },
+  "generated_at": "2026-11-17T09:39:05.546Z"
+}

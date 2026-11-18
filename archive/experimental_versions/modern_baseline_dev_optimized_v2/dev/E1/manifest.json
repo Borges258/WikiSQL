@@ -1,0 +1,21 @@
+{
+  "experiment": "E1",
+  "split": "dev",
+  "model": "gpt-5.6-sol",
+  "thinking": false,
+  "reasoning_effort": "none",
+  "few_shot": 0,
+  "retrieval_source": "train",
+  "prompt_freeze": "F:\\Agent_LAB\\dataset\\WikiSQL\\zero_shot\\results\\modern_baseline_dev_optimized_v2\\prompt_freeze.json",
+  "prompt_hash": "f713e238acfbe11a193ff50fc75fae48e108e38088992837785770b3af5d0081",
+  "selected_count": 2,
+  "offset": 0,
+  "limit": 2,
+  "ablation": false,
+  "prompt_cache_enabled": true,
+  "data_sha256": {
+    "train": "b52247eab1ea56bd5d181b54814449495740df52492193f36926bdc2ee822488",
+    "target": "61a857df71dc3c72185d57b3ea9b6df906e8a55fa78daa590edb87fc42871b7c"
+  },
+  "created_at": "2026-11-17T12:13:19.464600+00:00"
+}

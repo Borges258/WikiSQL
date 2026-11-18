@@ -1,0 +1,30 @@
+{
+  "experiment": "E4",
+  "total": 2,
+  "api_success_count": 2,
+  "json_validity_count": 2,
+  "sql_validity_count": 2,
+  "execution_success_count": 2,
+  "logical_form_correct_count": 2,
+  "execution_correct_count": 2,
+  "api_success_rate": 1.0,
+  "json_validity": 1.0,
+  "sql_validity": 1.0,
+  "execution_success_rate": 1.0,
+  "logical_form_accuracy": 1.0,
+  "execution_accuracy": 1.0,
+  "semantic_accuracy": null,
+  "usage": {
+    "input_tokens": 12562,
+    "output_tokens": 63,
+    "total_tokens": 12625
+  },
+  "estimated_api_cost_usd": 0.051508,
+  "latency_ms": {
+    "mean": 2824.5,
+    "p50": 2341,
+    "p95": 3308,
+    "max": 3308
+  },
+  "generated_at": "2026-11-17T11:41:02.948858+00:00"
+}

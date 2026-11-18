@@ -1,0 +1,76 @@
+{
+  "experiment": "WikiSQL Zero-shot Baseline",
+  "prompt_version": "wikisql-zero-shot-v1",
+  "prompt_sha256": "c3efff6ebabbaf2e93b4dcde06780ef40df9b5202acff7d9e224680f971302bb",
+  "model": "gpt-5.6-sol",
+  "api_format": "OpenAI Responses API",
+  "reasoning": {
+    "effort": "none"
+  },
+  "structured_output": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "sel",
+      "agg",
+      "conds"
+    ],
+    "properties": {
+      "sel": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "agg": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 5
+      },
+      "conds": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": [
+              "integer",
+              "string",
+              "number"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "zero_shot": true,
+  "split": "dev",
+  "split_size": 8421,
+  "offset": 0,
+  "limit": 5,
+  "selected_count": 5,
+  "concurrency": 2,
+  "max_retries": 2,
+  "timeout_ms": 120000,
+  "endpoint": "https://intlapi.thingo.com.cn/v1/responses",
+  "data_files": {
+    "questions": {
+      "path": "F:\\Agent_LAB\\dataset\\WikiSQL\\data\\dev.jsonl",
+      "sha256": "61a857df71dc3c72185d57b3ea9b6df906e8a55fa78daa590edb87fc42871b7c"
+    },
+    "tables": {
+      "path": "F:\\Agent_LAB\\dataset\\WikiSQL\\data\\dev.tables.jsonl",
+      "sha256": "d029a11a4f35d36b4e867fd21b0cc0f22b5b9fa2d3b7ac28c7a57986e1325e30"
+    },
+    "database": {
+      "path": "F:\\Agent_LAB\\dataset\\WikiSQL\\data\\dev.db",
+      "sha256": "c3685e41f2de9d17b3c643b285e1aec13eeeeb3dd04189085636c1d637d0978f"
+    }
+  },
+  "runtime": {
+    "node": "v24.18.0",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "created_at": "2026-11-17T09:37:52.093Z",
+  "resumed_at": "2026-11-17T09:38:17.876Z"
+}

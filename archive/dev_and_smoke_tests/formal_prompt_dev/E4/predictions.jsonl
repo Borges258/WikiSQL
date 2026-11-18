@@ -1,0 +1,2 @@
+{"query": {"agg": 0, "conds": [[5, 0, "Butler CC (KS)"]], "sel": 3}}
+{"query": {"agg": 3, "conds": [[1, 0, "3"]], "sel": 5}}

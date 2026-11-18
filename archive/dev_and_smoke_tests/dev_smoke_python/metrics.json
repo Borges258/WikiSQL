@@ -1,0 +1,30 @@
+{
+  "metric_standard": "Salesforce WikiSQL-compatible LF and denotation execution comparison",
+  "split": "dev",
+  "total": 5,
+  "completed": 5,
+  "api_success_count": 5,
+  "parse_success_count": 5,
+  "structural_valid_count": 5,
+  "executable_count": 5,
+  "logical_form_correct_count": 5,
+  "execution_correct_count": 5,
+  "api_success_rate": 1.0,
+  "parse_success_rate": 1.0,
+  "structural_sql_validity": 1.0,
+  "sql_validity": 1.0,
+  "logical_form_accuracy": 1.0,
+  "execution_accuracy": 1.0,
+  "usage": {
+    "input_tokens": 24326,
+    "output_tokens": 160,
+    "total_tokens": 24486
+  },
+  "latency_ms": {
+    "mean": 3363.8,
+    "p50": 3445,
+    "p95": 3928,
+    "max": 3928
+  },
+  "generated_at": "2026-11-17T10:50:14.714298+00:00"
+}
